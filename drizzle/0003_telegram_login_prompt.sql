@@ -1,0 +1,1 @@
+ALTER TABLE "connector_sessions" ADD COLUMN "prompt" jsonb;

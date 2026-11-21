@@ -1,0 +1,459 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "bpm": 120,
+  "barFrames": 60,
+  "transitionFrames": 15,
+  "durationInFrames": 7980,
+  "scenes": [
+    {
+      "id": "open",
+      "act": "",
+      "from": 0,
+      "duration": 435,
+      "lines": [
+        {
+          "id": "open-1",
+          "text": "Every day, business happens in chats.",
+          "file": "audio/narration/open-1.wav",
+          "from": 45,
+          "duration": 66,
+          "absFrom": 45
+        },
+        {
+          "id": "open-2",
+          "text": "Orders. Payments. Leads. Voice notes.",
+          "file": "audio/narration/open-2.wav",
+          "from": 124,
+          "duration": 77,
+          "absFrom": 124
+        },
+        {
+          "id": "open-3",
+          "text": "For millions of businesses, WhatsApp isn't just a messaging app. It's where the work gets done.",
+          "file": "audio/narration/open-3.wav",
+          "from": 218,
+          "duration": 169,
+          "absFrom": 218
+        }
+      ]
+    },
+    {
+      "id": "headlines",
+      "act": "01 · The headlines",
+      "from": 420,
+      "duration": 1215,
+      "lines": [
+        {
+          "id": "news-1",
+          "text": "The numbers are staggering.",
+          "file": "audio/narration/news-1.wav",
+          "from": 30,
+          "duration": 40,
+          "absFrom": 450
+        },
+        {
+          "id": "news-2",
+          "text": "WhatsApp now has more than three billion users every month. More than five hundred million of them are in India.",
+          "file": "audio/narration/news-2.wav",
+          "from": 84,
+          "duration": 216,
+          "absFrom": 504
+        },
+        {
+          "id": "news-3",
+          "text": "The WhatsApp Business app has crossed two hundred million monthly users. And ninety-one percent of online adults in India chat with a business every week.",
+          "file": "audio/narration/news-3.wav",
+          "from": 312,
+          "duration": 293,
+          "absFrom": 732
+        },
+        {
+          "id": "news-4",
+          "text": "Every day, people send an average of seven billion voice messages.",
+          "file": "audio/narration/news-4.wav",
+          "from": 617,
+          "duration": 129,
+          "absFrom": 1037
+        },
+        {
+          "id": "news-5",
+          "text": "Yet sixty-two percent of workers say they struggle with too much time spent searching for information. And one survey found professionals spend more than nine hours a week, manually transferring data.",
+          "file": "audio/narration/news-5.wav",
+          "from": 763,
+          "duration": 384,
+          "absFrom": 1183
+        }
+      ]
+    },
+    {
+      "id": "gap",
+      "act": "02 · The gap",
+      "from": 1620,
+      "duration": 1035,
+      "lines": [
+        {
+          "id": "gap-1",
+          "text": "So here's the gap.",
+          "file": "audio/narration/gap-1.wav",
+          "from": 30,
+          "duration": 33,
+          "absFrom": 1650
+        },
+        {
+          "id": "gap-2",
+          "text": "Your business information is buried in DMs and groups.",
+          "file": "audio/narration/gap-2.wav",
+          "from": 77,
+          "duration": 105,
+          "absFrom": 1697
+        },
+        {
+          "id": "gap-3",
+          "text": "You scroll through thousands of messages, looking for one customer.",
+          "file": "audio/narration/gap-3.wav",
+          "from": 193,
+          "duration": 121,
+          "absFrom": 1813
+        },
+        {
+          "id": "gap-4",
+          "text": "You copy every lead, payment and order into a spreadsheet. By hand. Every day.",
+          "file": "audio/narration/gap-4.wav",
+          "from": 326,
+          "duration": 155,
+          "absFrom": 1946
+        },
+        {
+          "id": "gap-5",
+          "text": "You export your chats into an AI assistant, just to understand what's going on, and hit a wall.",
+          "file": "audio/narration/gap-5.wav",
+          "from": 493,
+          "duration": 188,
+          "absFrom": 2113
+        },
+        {
+          "id": "gap-6",
+          "text": "Voice notes. Payment screenshots. Mixed-language messages. None of it fits neatly into a sheet.",
+          "file": "audio/narration/gap-6.wav",
+          "from": 693,
+          "duration": 189,
+          "absFrom": 2313
+        },
+        {
+          "id": "gap-7",
+          "text": "WhatsApp was built for a world before AI.",
+          "file": "audio/narration/gap-7.wav",
+          "from": 899,
+          "duration": 76,
+          "absFrom": 2519
+        }
+      ]
+    },
+    {
+      "id": "reveal",
+      "act": "",
+      "from": 2640,
+      "duration": 555,
+      "lines": [
+        {
+          "id": "reveal-1",
+          "text": "Introducing Infera.",
+          "file": "audio/narration/reveal-1.wav",
+          "from": 78,
+          "duration": 43,
+          "absFrom": 2718
+        },
+        {
+          "id": "reveal-2",
+          "text": "The intelligent inbox.",
+          "file": "audio/narration/reveal-2.wav",
+          "from": 136,
+          "duration": 45,
+          "absFrom": 2776
+        },
+        {
+          "id": "reveal-3",
+          "text": "Infera reads your chats, and turns every message, voice note and attachment into clean, structured rows. Automatically. In the background.",
+          "file": "audio/narration/reveal-3.wav",
+          "from": 201,
+          "duration": 274,
+          "absFrom": 2841
+        }
+      ]
+    },
+    {
+      "id": "interface",
+      "act": "03 · The product",
+      "from": 3180,
+      "duration": 735,
+      "lines": [
+        {
+          "id": "ui-1",
+          "text": "Meet Collections: a new form of Sheets.",
+          "file": "audio/narration/ui-1.wav",
+          "from": 30,
+          "duration": 70,
+          "absFrom": 3210
+        },
+        {
+          "id": "ui-2",
+          "text": "One row per order, with the customer, purchase, quantity, value and status.",
+          "file": "audio/narration/ui-2.wav",
+          "from": 113,
+          "duration": 139,
+          "absFrom": 3293
+        },
+        {
+          "id": "ui-3",
+          "text": "And it updates itself.",
+          "file": "audio/narration/ui-3.wav",
+          "from": 266,
+          "duration": 42,
+          "absFrom": 3446
+        },
+        {
+          "id": "ui-4",
+          "text": "A payment screenshot arrives, and Anjali's order is marked paid.",
+          "file": "audio/narration/ui-4.wav",
+          "from": 325,
+          "duration": 129,
+          "absFrom": 3505
+        },
+        {
+          "id": "ui-5",
+          "text": "A voice note becomes a brand-new row.",
+          "file": "audio/narration/ui-5.wav",
+          "from": 471,
+          "duration": 65,
+          "absFrom": 3651
+        },
+        {
+          "id": "ui-6",
+          "text": "Click any row, and see the exact message it came from.",
+          "file": "audio/narration/ui-6.wav",
+          "from": 554,
+          "duration": 95,
+          "absFrom": 3734
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "act": "04 · How it works",
+      "from": 3900,
+      "duration": 1035,
+      "lines": [
+        {
+          "id": "flow-1",
+          "text": "Setting up takes sixty seconds.",
+          "file": "audio/narration/flow-1.wav",
+          "from": 30,
+          "duration": 54,
+          "absFrom": 3930
+        },
+        {
+          "id": "flow-2",
+          "text": "First, scan a QR code to link WhatsApp, the same way WhatsApp Web works. No new number. No migration.",
+          "file": "audio/narration/flow-2.wav",
+          "from": 98,
+          "duration": 214,
+          "absFrom": 3998
+        },
+        {
+          "id": "flow-3",
+          "text": "Then, just ask: find all orders from my chats for the last month.",
+          "file": "audio/narration/flow-3.wav",
+          "from": 333,
+          "duration": 123,
+          "absFrom": 4233
+        },
+        {
+          "id": "flow-4",
+          "text": "Infera reads your chats, designs the table, and proposes the fields. Accept, and the collection fills itself.",
+          "file": "audio/narration/flow-4.wav",
+          "from": 473,
+          "duration": 223,
+          "absFrom": 4373
+        },
+        {
+          "id": "flow-5",
+          "text": "Now ask anything. Who asked about the blue running shoes?",
+          "file": "audio/narration/flow-5.wav",
+          "from": 717,
+          "duration": 102,
+          "absFrom": 4617
+        },
+        {
+          "id": "flow-6",
+          "text": "You get a proper answer, cited and linked to the original messages.",
+          "file": "audio/narration/flow-6.wav",
+          "from": 837,
+          "duration": 122,
+          "absFrom": 4737
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "act": "05 · Under the hood",
+      "from": 4920,
+      "duration": 1335,
+      "lines": [
+        {
+          "id": "eng-1",
+          "text": "Under the hood, Infera runs a continuous pipeline.",
+          "file": "audio/narration/eng-1.wav",
+          "from": 36,
+          "duration": 94,
+          "absFrom": 4956
+        },
+        {
+          "id": "eng-2",
+          "text": "Messages, voice notes, photos and documents sync from your linked device, and your history is backfilled as far as WhatsApp makes it available.",
+          "file": "audio/narration/eng-2.wav",
+          "from": 144,
+          "duration": 280,
+          "absFrom": 5064
+        },
+        {
+          "id": "eng-3",
+          "text": "Voice notes are transcribed. Text in payment screenshots and invoices is read.",
+          "file": "audio/narration/eng-3.wav",
+          "from": 439,
+          "duration": 160,
+          "absFrom": 5359
+        },
+        {
+          "id": "eng-4",
+          "text": "Mixed-language chats are understood: English with Hindi, Malayalam, Tamil, Bengali, and Hinglish.",
+          "file": "audio/narration/eng-4.wav",
+          "from": 613,
+          "duration": 195,
+          "absFrom": 5533
+        },
+        {
+          "id": "eng-5",
+          "text": "Agents run only on the chats you choose. They extract each detail into typed fields, and write one row per order, lead or payment.",
+          "file": "audio/narration/eng-5.wav",
+          "from": 823,
+          "duration": 274,
+          "absFrom": 5743
+        },
+        {
+          "id": "eng-6",
+          "text": "Every row links back to its source. And every new message updates the right row.",
+          "file": "audio/narration/eng-6.wav",
+          "from": 1112,
+          "duration": 152,
+          "absFrom": 6032
+        }
+      ]
+    },
+    {
+      "id": "privacy",
+      "act": "06 · Private by design",
+      "from": 6240,
+      "duration": 555,
+      "lines": [
+        {
+          "id": "priv-1",
+          "text": "All of it, encrypted.",
+          "file": "audio/narration/priv-1.wav",
+          "from": 30,
+          "duration": 36,
+          "absFrom": 6270
+        },
+        {
+          "id": "priv-2",
+          "text": "Messages are encrypted before they're stored in the cloud, and decrypted only on the devices you've signed in to.",
+          "file": "audio/narration/priv-2.wav",
+          "from": 80,
+          "duration": 217,
+          "absFrom": 6320
+        },
+        {
+          "id": "priv-3",
+          "text": "You choose which chats are read. Your data is never sold, and never trained on.",
+          "file": "audio/narration/priv-3.wav",
+          "from": 310,
+          "duration": 150,
+          "absFrom": 6550
+        }
+      ]
+    },
+    {
+      "id": "advantage",
+      "act": "07 · Why Infera",
+      "from": 6780,
+      "duration": 675,
+      "lines": [
+        {
+          "id": "adv-1",
+          "text": "No more scrolling. No more copy-paste. No more exports.",
+          "file": "audio/narration/adv-1.wav",
+          "from": 30,
+          "duration": 118,
+          "absFrom": 6810
+        },
+        {
+          "id": "adv-2",
+          "text": "Infera works where business already happens, and keeps working around the clock.",
+          "file": "audio/narration/adv-2.wav",
+          "from": 165,
+          "duration": 142,
+          "absFrom": 6945
+        },
+        {
+          "id": "adv-3",
+          "text": "Export any collection to CSV in one click, ready for Excel or Google Sheets.",
+          "file": "audio/narration/adv-3.wav",
+          "from": 321,
+          "duration": 168,
+          "absFrom": 7101
+        },
+        {
+          "id": "adv-4",
+          "text": "One account, synced across Windows, Mac, iOS and Android.",
+          "file": "audio/narration/adv-4.wav",
+          "from": 501,
+          "duration": 123,
+          "absFrom": 7281
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "act": "",
+      "from": 7440,
+      "duration": 540,
+      "lines": [
+        {
+          "id": "cta-1",
+          "text": "WhatsApp is live today. Gmail, Slack and more are on the way.",
+          "file": "audio/narration/cta-1.wav",
+          "from": 30,
+          "duration": 119,
+          "absFrom": 7470
+        },
+        {
+          "id": "cta-2",
+          "text": "Your first table, in sixty seconds. And your first week is free.",
+          "file": "audio/narration/cta-2.wav",
+          "from": 166,
+          "duration": 117,
+          "absFrom": 7606
+        },
+        {
+          "id": "cta-3",
+          "text": "Infera. The intelligent inbox.",
+          "file": "audio/narration/cta-3.wav",
+          "from": 307,
+          "duration": 64,
+          "absFrom": 7747
+        }
+      ]
+    }
+  ]
+}

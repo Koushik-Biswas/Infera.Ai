@@ -1,0 +1,246 @@
+{
+  "voice": {
+    "engine": "kokoro-v1.0 (local)",
+    "style": {
+      "blend": {
+        "am_michael": 0.6,
+        "am_fenrir": 0.4
+      }
+    },
+    "speed": 0.96,
+    "lang": "en-us"
+  },
+  "sampleRate": 48000,
+  "lines": {
+    "open-1": {
+      "file": "audio/narration/open-1.wav",
+      "duration": 2.1719,
+      "hash": "e99fe13bd20a1a24"
+    },
+    "open-2": {
+      "file": "audio/narration/open-2.wav",
+      "duration": 2.539,
+      "hash": "2ba60a626b93535d"
+    },
+    "open-3": {
+      "file": "audio/narration/open-3.wav",
+      "duration": 5.6164,
+      "hash": "769b1b7cc0c0d99d"
+    },
+    "news-1": {
+      "file": "audio/narration/news-1.wav",
+      "duration": 1.3165,
+      "hash": "bde181adacf6653f"
+    },
+    "news-2": {
+      "file": "audio/narration/news-2.wav",
+      "duration": 7.197,
+      "hash": "a830219d2936f3f2"
+    },
+    "news-3": {
+      "file": "audio/narration/news-3.wav",
+      "duration": 9.7414,
+      "hash": "d7f47bc8a0e0d58b"
+    },
+    "news-4": {
+      "file": "audio/narration/news-4.wav",
+      "duration": 4.2806,
+      "hash": "80d479cb86714e44"
+    },
+    "news-5": {
+      "file": "audio/narration/news-5.wav",
+      "duration": 12.7938,
+      "hash": "a52ed20d961e3c6f"
+    },
+    "gap-1": {
+      "file": "audio/narration/gap-1.wav",
+      "duration": 1.0693,
+      "hash": "d6309ef79c677352"
+    },
+    "gap-2": {
+      "file": "audio/narration/gap-2.wav",
+      "duration": 3.4783,
+      "hash": "e26daf0edcbf8e7f"
+    },
+    "gap-3": {
+      "file": "audio/narration/gap-3.wav",
+      "duration": 4.033,
+      "hash": "fc6c44177f9e7cfc"
+    },
+    "gap-4": {
+      "file": "audio/narration/gap-4.wav",
+      "duration": 5.1504,
+      "hash": "f0add6f7f3a8beaf"
+    },
+    "gap-5": {
+      "file": "audio/narration/gap-5.wav",
+      "duration": 6.258,
+      "hash": "49bdaefd1121924c"
+    },
+    "gap-6": {
+      "file": "audio/narration/gap-6.wav",
+      "duration": 6.2873,
+      "hash": "47fd16d42a14420d"
+    },
+    "gap-7": {
+      "file": "audio/narration/gap-7.wav",
+      "duration": 2.518,
+      "hash": "8268ebebd81d048f"
+    },
+    "reveal-1": {
+      "file": "audio/narration/reveal-1.wav",
+      "duration": 1.4241,
+      "hash": "8ff36003abc37555"
+    },
+    "reveal-2": {
+      "file": "audio/narration/reveal-2.wav",
+      "duration": 1.4729,
+      "hash": "bdbe934d074b308b"
+    },
+    "reveal-3": {
+      "file": "audio/narration/reveal-3.wav",
+      "duration": 9.1232,
+      "hash": "bf7e43a846b43e9e"
+    },
+    "ui-1": {
+      "file": "audio/narration/ui-1.wav",
+      "duration": 2.3232,
+      "hash": "5a0cd04f95460533"
+    },
+    "ui-2": {
+      "file": "audio/narration/ui-2.wav",
+      "duration": 4.6273,
+      "hash": "67e2d261f8a577e0"
+    },
+    "ui-3": {
+      "file": "audio/narration/ui-3.wav",
+      "duration": 1.3829,
+      "hash": "20dfd801e7d279ec"
+    },
+    "ui-4": {
+      "file": "audio/narration/ui-4.wav",
+      "duration": 4.2808,
+      "hash": "4ca6755d25bd2373"
+    },
+    "ui-5": {
+      "file": "audio/narration/ui-5.wav",
+      "duration": 2.1503,
+      "hash": "77ec14714814e5c7"
+    },
+    "ui-6": {
+      "file": "audio/narration/ui-6.wav",
+      "duration": 3.1427,
+      "hash": "b75e445db8fdd109"
+    },
+    "flow-1": {
+      "file": "audio/narration/flow-1.wav",
+      "duration": 1.7809,
+      "hash": "b5d4c9b9d79d1f44"
+    },
+    "flow-2": {
+      "file": "audio/narration/flow-2.wav",
+      "duration": 7.1035,
+      "hash": "b06480310f5fee8b"
+    },
+    "flow-3": {
+      "file": "audio/narration/flow-3.wav",
+      "duration": 4.0831,
+      "hash": "7b73fba78dd967f0"
+    },
+    "flow-4": {
+      "file": "audio/narration/flow-4.wav",
+      "duration": 7.4269,
+      "hash": "f818477a783a0f90"
+    },
+    "flow-5": {
+      "file": "audio/narration/flow-5.wav",
+      "duration": 3.3962,
+      "hash": "1d5fdf9c363d606a"
+    },
+    "flow-6": {
+      "file": "audio/narration/flow-6.wav",
+      "duration": 4.0581,
+      "hash": "24de7d09dcae88b7"
+    },
+    "eng-1": {
+      "file": "audio/narration/eng-1.wav",
+      "duration": 3.1025,
+      "hash": "095f328ba9579783"
+    },
+    "eng-2": {
+      "file": "audio/narration/eng-2.wav",
+      "duration": 9.3158,
+      "hash": "1cd39a0a9cfd6aa1"
+    },
+    "eng-3": {
+      "file": "audio/narration/eng-3.wav",
+      "duration": 5.3298,
+      "hash": "798c46c859172a56"
+    },
+    "eng-4": {
+      "file": "audio/narration/eng-4.wav",
+      "duration": 6.4966,
+      "hash": "bc547cbf8af90ae5"
+    },
+    "eng-5": {
+      "file": "audio/narration/eng-5.wav",
+      "duration": 9.1322,
+      "hash": "18182a8958b3b84c"
+    },
+    "eng-6": {
+      "file": "audio/narration/eng-6.wav",
+      "duration": 5.0336,
+      "hash": "955696abbcca8bbd"
+    },
+    "priv-1": {
+      "file": "audio/narration/priv-1.wav",
+      "duration": 1.1736,
+      "hash": "2dba13649e735699"
+    },
+    "priv-2": {
+      "file": "audio/narration/priv-2.wav",
+      "duration": 7.211,
+      "hash": "b6578ea9b9b4de71"
+    },
+    "priv-3": {
+      "file": "audio/narration/priv-3.wav",
+      "duration": 4.9879,
+      "hash": "ff45353c6ef6f1d3"
+    },
+    "adv-1": {
+      "file": "audio/narration/adv-1.wav",
+      "duration": 3.9114,
+      "hash": "2c909b180b28947a"
+    },
+    "adv-2": {
+      "file": "audio/narration/adv-2.wav",
+      "duration": 4.724,
+      "hash": "120324173f16e845"
+    },
+    "adv-3": {
+      "file": "audio/narration/adv-3.wav",
+      "duration": 5.5749,
+      "hash": "334cd4254d26d0d9"
+    },
+    "adv-4": {
+      "file": "audio/narration/adv-4.wav",
+      "duration": 4.0793,
+      "hash": "b5c3d78faeed30a8"
+    },
+    "cta-1": {
+      "file": "audio/narration/cta-1.wav",
+      "duration": 3.9438,
+      "hash": "3ca71d0bc53d7d52"
+    },
+    "cta-2": {
+      "file": "audio/narration/cta-2.wav",
+      "duration": 3.8766,
+      "hash": "dc66cca56a61e0c9"
+    },
+    "cta-3": {
+      "file": "audio/narration/cta-3.wav",
+      "duration": 2.1122,
+      "hash": "ed47f1fee82e1331"
+    }
+  }
+}

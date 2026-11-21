@@ -1,0 +1,147 @@
+{
+  "voice": {
+    "engine": "kokoro-v1.0 (local)",
+    "style": { "blend": { "am_michael": 0.6, "am_fenrir": 0.4 } },
+    "speed": 0.96,
+    "lang": "en-us"
+  },
+  "transitionSeconds": 0.5,
+  "scenes": [
+    {
+      "id": "open",
+      "act": "",
+      "leadIn": 1.5,
+      "tail": 1.0,
+      "gap": 0.45,
+      "lines": [
+        { "id": "open-1", "text": "Every day, business happens in chats." },
+        { "id": "open-2", "text": "Orders. Payments. Leads. Voice notes.", "tts": "Orders... Payments... Leads... Voice notes.", "pauseAfter": 0.6 },
+        { "id": "open-3", "text": "For millions of businesses, WhatsApp isn't just a messaging app. It's where the work gets done." }
+      ]
+    },
+    {
+      "id": "headlines",
+      "act": "01 · The headlines",
+      "leadIn": 1.0,
+      "tail": 1.2,
+      "gap": 0.4,
+      "lines": [
+        { "id": "news-1", "text": "The numbers are staggering.", "pauseAfter": 0.5 },
+        { "id": "news-2", "text": "WhatsApp now has more than three billion users every month. More than five hundred million of them are in India." },
+        { "id": "news-3", "text": "The WhatsApp Business app has crossed two hundred million monthly users. And ninety-one percent of online adults in India chat with a business every week." },
+        { "id": "news-4", "text": "Every day, people send an average of seven billion voice messages.", "pauseAfter": 0.6 },
+        { "id": "news-5", "text": "Yet sixty-two percent of workers say they struggle with too much time spent searching for information. And one survey found professionals spend more than nine hours a week, manually transferring data." }
+      ]
+    },
+    {
+      "id": "gap",
+      "act": "02 · The gap",
+      "leadIn": 1.0,
+      "tail": 1.4,
+      "gap": 0.4,
+      "lines": [
+        { "id": "gap-1", "text": "So here's the gap.", "pauseAfter": 0.5 },
+        { "id": "gap-2", "text": "Your business information is buried in DMs and groups." },
+        { "id": "gap-3", "text": "You scroll through thousands of messages, looking for one customer." },
+        { "id": "gap-4", "text": "You copy every lead, payment and order into a spreadsheet. By hand. Every day." },
+        { "id": "gap-5", "text": "You export your chats into an AI assistant, just to understand what's going on, and hit a wall." },
+        { "id": "gap-6", "text": "Voice notes. Payment screenshots. Mixed-language messages. None of it fits neatly into a sheet.", "pauseAfter": 0.6 },
+        { "id": "gap-7", "text": "WhatsApp was built for a world before AI." }
+      ]
+    },
+    {
+      "id": "reveal",
+      "act": "",
+      "leadIn": 2.6,
+      "tail": 1.2,
+      "gap": 0.5,
+      "lines": [
+        { "id": "reveal-1", "text": "Introducing Infera.", "tts": "Introducing, Infurra.", "pauseAfter": 0.5 },
+        { "id": "reveal-2", "text": "The intelligent inbox.", "pauseAfter": 0.7 },
+        { "id": "reveal-3", "text": "Infera reads your chats, and turns every message, voice note and attachment into clean, structured rows. Automatically. In the background.", "tts": "Infurra reads your chats, and turns every message, voice note and attachment into clean, structured rows. Automatically. In the background." }
+      ]
+    },
+    {
+      "id": "interface",
+      "act": "03 · The product",
+      "leadIn": 1.0,
+      "tail": 1.6,
+      "gap": 0.45,
+      "lines": [
+        { "id": "ui-1", "text": "Meet Collections: a new form of Sheets." },
+        { "id": "ui-2", "text": "One row per order, with the customer, purchase, quantity, value and status." },
+        { "id": "ui-3", "text": "And it updates itself.", "pauseAfter": 0.6 },
+        { "id": "ui-4", "text": "A payment screenshot arrives, and Anjali's order is marked paid.", "pauseAfter": 0.6 },
+        { "id": "ui-5", "text": "A voice note becomes a brand-new row.", "pauseAfter": 0.6 },
+        { "id": "ui-6", "text": "Click any row, and see the exact message it came from." }
+      ]
+    },
+    {
+      "id": "workflow",
+      "act": "04 · How it works",
+      "leadIn": 1.0,
+      "tail": 1.6,
+      "gap": 0.5,
+      "lines": [
+        { "id": "flow-1", "text": "Setting up takes sixty seconds.", "pauseAfter": 0.5 },
+        { "id": "flow-2", "text": "First, scan a QR code to link WhatsApp, the same way WhatsApp Web works. No new number. No migration.", "pauseAfter": 0.7 },
+        { "id": "flow-3", "text": "Then, just ask: find all orders from my chats for the last month.", "pauseAfter": 0.6 },
+        { "id": "flow-4", "text": "Infera reads your chats, designs the table, and proposes the fields. Accept, and the collection fills itself.", "tts": "Infurra reads your chats, designs the table, and proposes the fields. Accept, and the collection fills itself.", "pauseAfter": 0.7 },
+        { "id": "flow-5", "text": "Now ask anything. Who asked about the blue running shoes?", "pauseAfter": 0.6 },
+        { "id": "flow-6", "text": "You get a proper answer, cited and linked to the original messages." }
+      ]
+    },
+    {
+      "id": "engine",
+      "act": "05 · Under the hood",
+      "leadIn": 1.2,
+      "tail": 1.6,
+      "gap": 0.5,
+      "lines": [
+        { "id": "eng-1", "text": "Under the hood, Infera runs a continuous pipeline.", "tts": "Under the hood, Infurra runs a continuous pipeline.", "pauseAfter": 0.5 },
+        { "id": "eng-2", "text": "Messages, voice notes, photos and documents sync from your linked device, and your history is backfilled as far as WhatsApp makes it available." },
+        { "id": "eng-3", "text": "Voice notes are transcribed. Text in payment screenshots and invoices is read." },
+        { "id": "eng-4", "text": "Mixed-language chats are understood: English with Hindi, Malayalam, Tamil, Bengali, and Hinglish." },
+        { "id": "eng-5", "text": "Agents run only on the chats you choose. They extract each detail into typed fields, and write one row per order, lead or payment." },
+        { "id": "eng-6", "text": "Every row links back to its source. And every new message updates the right row." }
+      ]
+    },
+    {
+      "id": "privacy",
+      "act": "06 · Private by design",
+      "leadIn": 1.0,
+      "tail": 1.4,
+      "gap": 0.45,
+      "lines": [
+        { "id": "priv-1", "text": "All of it, encrypted.", "pauseAfter": 0.5 },
+        { "id": "priv-2", "text": "Messages are encrypted before they're stored in the cloud, and decrypted only on the devices you've signed in to." },
+        { "id": "priv-3", "text": "You choose which chats are read. Your data is never sold, and never trained on." }
+      ]
+    },
+    {
+      "id": "advantage",
+      "act": "07 · Why Infera",
+      "leadIn": 1.0,
+      "tail": 1.4,
+      "gap": 0.45,
+      "lines": [
+        { "id": "adv-1", "text": "No more scrolling. No more copy-paste. No more exports.", "pauseAfter": 0.6 },
+        { "id": "adv-2", "text": "Infera works where business already happens, and keeps working around the clock.", "tts": "Infurra works where business already happens, and keeps working around the clock." },
+        { "id": "adv-3", "text": "Export any collection to CSV in one click, ready for Excel or Google Sheets." },
+        { "id": "adv-4", "text": "One account, synced across Windows, Mac, iOS and Android." }
+      ]
+    },
+    {
+      "id": "cta",
+      "act": "",
+      "leadIn": 1.0,
+      "tail": 5.0,
+      "gap": 0.6,
+      "lines": [
+        { "id": "cta-1", "text": "WhatsApp is live today. Gmail, Slack and more are on the way.", "pauseAfter": 0.6 },
+        { "id": "cta-2", "text": "Your first table, in sixty seconds. And your first week is free.", "pauseAfter": 0.8 },
+        { "id": "cta-3", "text": "Infera. The intelligent inbox.", "tts": "Infurra. The intelligent inbox." }
+      ]
+    }
+  ]
+}

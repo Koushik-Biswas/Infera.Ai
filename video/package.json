@@ -1,0 +1,32 @@
+{
+  "name": "infera-promo-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Infera.Ai cinematic product presentation — Remotion + React + TypeScript",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "capture": "node scripts/capture/screenshots.mjs",
+    "audio": "python scripts/audio/build_all.py",
+    "still": "remotion still src/index.ts InferaPromo",
+    "render:preview": "remotion render src/index.ts InferaPromo out/preview-720p.mp4 --scale=0.6667 --crf=26",
+    "render:4k": "node scripts/render-4k.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.544",
+    "@remotion/google-fonts": "4.0.544",
+    "@remotion/noise": "4.0.544",
+    "@remotion/transitions": "4.0.544",
+    "lucide-react": "^1.74.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.544"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "puppeteer-core": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

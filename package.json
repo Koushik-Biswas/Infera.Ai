@@ -1,0 +1,51 @@
+{
+  "name": "infera-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "node scripts/migrate.mjs",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.9.0",
+    "@electric-sql/pglite": "^0.5.16",
+    "baileys": "^7.0.0-rc14",
+    "drizzle-orm": "^0.45.4",
+    "fflate": "^0.8.3",
+    "imapflow": "^2.12.1",
+    "lucide-react": "^1.74.0",
+    "mailparser": "^3.14.5",
+    "motion": "^14.14.0",
+    "next": "^16.4.6",
+    "nodemailer": "^10.6.0",
+    "pg": "^8.23.1",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "teleproto": "^1.233.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "drizzle-kit": "^0.31.11",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
